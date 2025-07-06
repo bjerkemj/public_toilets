@@ -17,14 +17,14 @@ L.Icon.Default.mergeOptions({
 // Custom cluster icon
 const createClusterIcon = (count) => {
   let size = 'small'
-  let color = '#3b82f6'
+  let color = '#60a5fa' // Light blue
   
   if (count >= 100) {
     size = 'large'
-    color = '#dc2626'
+    color = '#1d4ed8' // Dark blue
   } else if (count >= 10) {
     size = 'medium' 
-    color = '#f59e0b'
+    color = '#3b82f6' // Medium blue
   }
   
   return L.divIcon({
@@ -104,6 +104,13 @@ function MapContent({ toilets, onStatsUpdate }) {
   const createPopupContent = (toilet) => {
     const tags = toilet.tags || {}
     
+    // Function to open directions in Google Maps
+    const openDirections = () => {
+      const destination = `${toilet.lat},${toilet.lon}`
+      const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`
+      window.open(googleMapsUrl, '_blank')
+    }
+    
     return (
       <div className="custom-popup">
         <h3>🚽 Public Toilet</h3>
@@ -128,6 +135,16 @@ function MapContent({ toilets, onStatsUpdate }) {
             <p><a href={tags.image} target="_blank" rel="noopener noreferrer">📸 View Image</a></p>
           )}
           <p className="coordinates"><strong>Location:</strong> {toilet.lat.toFixed(4)}, {toilet.lon.toFixed(4)}</p>
+          
+          <div className="popup-actions">
+            <button 
+              className="directions-button"
+              onClick={openDirections}
+              title="Get directions to this toilet"
+            >
+              🧭 Get Directions
+            </button>
+          </div>
         </div>
       </div>
     )

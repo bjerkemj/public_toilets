@@ -156,6 +156,40 @@
   min-width: 80px;
 }
 
+.popup-actions {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.directions-button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.directions-button:hover {
+  background: #059669;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+.directions-button:active {
+  transform: translateY(0);
+}
+
 /* Status indicators */
 .access-yes, .fee-free, .accessible-yes {
   color: #10b981;
@@ -221,29 +255,29 @@
 }
 
 .cluster-medium {
-  width: 35px;
-  height: 35px;
+  width: 34px;
+  height: 34px;
   font-size: 13px;
 }
 
 .cluster-large {
-  width: 45px;
-  height: 45px;
-  font-size: 16px;
-  font-weight: 900;
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 /* Cluster animations */
 .marker-cluster-small div {
-  background-color: #3b82f6;
+  background-color: #60a5fa;
 }
 
 .marker-cluster-medium div {
-  background-color: #f59e0b;
+  background-color: #3b82f6;
 }
 
 .marker-cluster-large div {
-  background-color: #dc2626;
+  background-color: #1d4ed8;
 }
 
 .cluster-popup {

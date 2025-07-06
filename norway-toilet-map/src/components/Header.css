@@ -13,12 +13,34 @@
 
 .header-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding: 0 20px;
+  padding: 0;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+}
+
+.header-menu-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.header-menu-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
 }
 
 .header-title {
@@ -28,12 +50,18 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header-stats {
   display: flex;
   gap: 20px;
   font-size: 0.9rem;
+  flex-shrink: 0;
+  margin-right: 20px;
+  margin-left: auto;
 }
 
 .stat-item {
@@ -43,12 +71,16 @@
 
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .header-content {
-    padding: 0 15px;
+  .header-menu-toggle {
+    margin-left: 15px;
   }
   
   .header-title {
     font-size: 1.2rem;
+    position: static;
+    transform: none;
+    flex: 1;
+    margin-left: 15px;
   }
   
   .header-stats {

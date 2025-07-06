@@ -1,10 +1,15 @@
 // src/components/Header.jsx
 import './Header.css'
 
-function Header() {
+function Header({ onMenuToggle, isMenuOpen }) {
   return (
     <header className="header">
       <div className="header-content">
+        {/* Burger Menu Button */}
+        <button className="header-menu-toggle" onClick={onMenuToggle}>
+          {isMenuOpen ? '✕' : '☰'}
+        </button>
+        
         <h1 className="header-title">
           🚽 Norway Toilet Map
         </h1>

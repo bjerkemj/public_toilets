@@ -7,11 +7,6 @@ function Sidebar({ isOpen, onToggle }) {
 
   return (
     <>
-      {/* Toggle button for mobile */}
-      <button className="sidebar-toggle" onClick={onToggle}>
-        {isOpen ? '✕' : '☰'}
-      </button>
-
       {/* Sidebar */}
       <aside className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
         <div className="sidebar-content">
@@ -22,12 +17,6 @@ function Sidebar({ isOpen, onToggle }) {
               onClick={() => setActiveSection('filters')}
             >
               🔍 Filters
-            </button>
-            <button 
-              className={`nav-item ${activeSection === 'settings' ? 'active' : ''}`}
-              onClick={() => setActiveSection('settings')}
-            >
-              ⚙️ Settings
             </button>
             <button 
               className={`nav-item ${activeSection === 'about' ? 'active' : ''}`}
@@ -44,61 +33,12 @@ function Sidebar({ isOpen, onToggle }) {
                 <h3>Filter Toilets</h3>
                 <div className="filter-group">
                   <label className="checkbox-label">
-                    <input type="checkbox" defaultChecked />
+                    <input type="checkbox" />
                     <span>Free Access</span>
                   </label>
                   <label className="checkbox-label">
-                    <input type="checkbox" defaultChecked />
+                    <input type="checkbox" />
                     <span>Wheelchair Accessible</span>
-                  </label>
-                  <label className="checkbox-label">
-                    <input type="checkbox" />
-                    <span>Paid Toilets</span>
-                  </label>
-                  <label className="checkbox-label">
-                    <input type="checkbox" defaultChecked />
-                    <span>Public Access</span>
-                  </label>
-                </div>
-                
-                <div className="search-group">
-                  <h4>Search Location</h4>
-                  <input 
-                    type="text" 
-                    placeholder="Enter city or address..."
-                    className="search-input"
-                  />
-                  <button className="search-button">Search</button>
-                </div>
-              </div>
-            )}
-
-            {activeSection === 'settings' && (
-              <div className="section-content">
-                <h3>Map Settings</h3>
-                <div className="setting-group">
-                  <h4>Map Style</h4>
-                  <select className="style-select">
-                    <option value="streets">Streets</option>
-                    <option value="light">Light</option>
-                    <option value="dark">Dark</option>
-                    <option value="satellite">Satellite</option>
-                  </select>
-                </div>
-                
-                <div className="setting-group">
-                  <h4>Marker Size</h4>
-                  <input type="range" min="1" max="3" defaultValue="2" className="range-input" />
-                </div>
-
-                <div className="setting-group">
-                  <label className="checkbox-label">
-                    <input type="checkbox" defaultChecked />
-                    <span>Show Clusters</span>
-                  </label>
-                  <label className="checkbox-label">
-                    <input type="checkbox" />
-                    <span>Auto-locate Me</span>
                   </label>
                 </div>
               </div>
@@ -107,21 +47,51 @@ function Sidebar({ isOpen, onToggle }) {
             {activeSection === 'about' && (
               <div className="section-content">
                 <h3>About This Map</h3>
-                <p>Norway's most comprehensive toilet finder with over 63,000 locations.</p>
+                <p>Norway's most comprehensive toilet finder with over 3,400 locations.</p>
                 <div className="stats-grid">
                   <div className="stat-card">
-                    <div className="stat-number">63K+</div>
+                    <div className="stat-number">3.4K+</div>
                     <div className="stat-label">Locations</div>
                   </div>
                   <div className="stat-card">
-                    <div className="stat-number">428</div>
+                    <div className="stat-number">108</div>
                     <div className="stat-label">Cities</div>
                   </div>
                 </div>
                 
+                <div className="data-source-section">
+                  <h4>Data Source</h4>
+                  <p>All toilet location data is sourced from OpenStreetMap, the collaborative mapping project.</p>
+                  <div className="attribution">
+                    <span>© OpenStreetMap contributors</span>
+                  </div>
+                  <a href="https://www.openstreetmap.org/" target="_blank" rel="noopener noreferrer" className="about-link">
+                    Visit OpenStreetMap
+                  </a>
+                </div>
+
+                <div className="disclaimer-section">
+                  <h4>Data Disclaimer</h4>
+                  <div className="disclaimer-content">
+                    <p>Please note:</p>
+                    <ul>
+                      <li>Information may not be current or accurate</li>
+                      <li>Toilet facilities may have changed hours or access</li>
+                      <li>Some locations may no longer exist</li>
+                      <li>Always verify before traveling long distances</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="contribute-section">
+                  <h4>Help Improve This Map</h4>
+                  <p>Know of missing toilets or outdated information? Help improve the data for everyone.</p>
+                  <a href="https://www.openstreetmap.org/edit" target="_blank" rel="noopener noreferrer" className="contribute-button">
+                    Contribute to OpenStreetMap
+                  </a>
+                </div>
+                
                 <div className="about-links">
-                  <a href="#" className="about-link">Data Source</a>
-                  <a href="#" className="about-link">GitHub</a>
                   <a href="#" className="about-link">Contact</a>
                 </div>
               </div>

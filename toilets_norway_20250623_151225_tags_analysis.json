@@ -1,0 +1,1527 @@
+{
+  "amenity": [
+    "toilets"
+  ],
+  "created_by": [
+    "JOSM",
+    "Potlatch 0.10",
+    "Potlatch 0.10b",
+    "Potlatch 0.10f",
+    "iLOE 1.9"
+  ],
+  "toilets:disposal": [
+    "bucket",
+    "chemical",
+    "dry_toilet",
+    "flush",
+    "no",
+    "pitlatrine",
+    "running_water"
+  ],
+  "access": [
+    "customers",
+    "limited",
+    "no",
+    "permissive",
+    "permit",
+    "private",
+    "public",
+    "unknown",
+    "yes"
+  ],
+  "check_date": [
+    "2021-08-03",
+    "2021-08-05",
+    "2021-08-08",
+    "2021-08-29",
+    "2021-10-15",
+    "2021-12-20",
+    "2021-12-29",
+    "2022-01-06",
+    "2022-04-05",
+    "2022-04-10",
+    "2022-04-11",
+    "2022-04-13",
+    "2022-07-04",
+    "2022-07-16",
+    "2022-07-21",
+    "2022-07-25",
+    "2022-07-26",
+    "2022-08-02",
+    "2022-08-15",
+    "2022-08-16",
+    "2022-08-23",
+    "2022-09-18",
+    "2022-09-24",
+    "2022-10-01",
+    "2022-12-03",
+    "2023-01-07",
+    "2023-02-18",
+    "2023-04-08",
+    "2023-05-06",
+    "2023-05-14",
+    "2023-05-20",
+    "2023-05-29",
+    "2023-06-03",
+    "2023-06-04",
+    "2023-06-10",
+    "2023-06-18",
+    "2023-06-23",
+    "2023-07-01",
+    "2023-07-06",
+    "2023-07-12",
+    "2023-07-28",
+    "2023-08-05",
+    "2023-08-10",
+    "2023-08-14",
+    "2023-08-17",
+    "2023-08-21",
+    "2023-08-22",
+    "2023-08-24",
+    "2023-08-25",
+    "2023-08-26",
+    "2023-08-28",
+    "2023-08-31",
+    "2023-09-07",
+    "2023-09-10",
+    "2023-09-17",
+    "2023-09-24",
+    "2023-09-29",
+    "2023-10-08",
+    "2023-10-19",
+    "2023-10-20",
+    "2023-10-26",
+    "2023-11-12",
+    "2023-11-17",
+    "2023-12-10",
+    "2023-12-16",
+    "2024-02-10",
+    "2024-03-01",
+    "2024-03-03",
+    "2024-03-17",
+    "2024-03-23",
+    "2024-03-28",
+    "2024-04-10",
+    "2024-04-28",
+    "2024-05-10",
+    "2024-05-20",
+    "2024-05-26",
+    "2024-06-14",
+    "2024-06-17",
+    "2024-06-21",
+    "2024-06-26",
+    "2024-06-27",
+    "2024-06-30",
+    "2024-07-01",
+    "2024-07-03",
+    "2024-07-08",
+    "2024-07-09",
+    "2024-07-10",
+    "2024-07-12",
+    "2024-07-14",
+    "2024-07-15",
+    "2024-07-18",
+    "2024-07-19",
+    "2024-07-20",
+    "2024-07-21",
+    "2024-07-26",
+    "2024-07-27",
+    "2024-07-28",
+    "2024-07-29",
+    "2024-07-30",
+    "2024-07-31",
+    "2024-08-01",
+    "2024-08-02",
+    "2024-08-04",
+    "2024-08-07",
+    "2024-08-09",
+    "2024-08-10",
+    "2024-08-11",
+    "2024-08-14",
+    "2024-08-15",
+    "2024-08-17",
+    "2024-08-23",
+    "2024-08-24",
+    "2024-08-25",
+    "2024-08-26",
+    "2024-08-29",
+    "2024-08-30",
+    "2024-08-31",
+    "2024-09-03",
+    "2024-09-04",
+    "2024-09-05",
+    "2024-09-08",
+    "2024-09-10",
+    "2024-09-13",
+    "2024-09-16",
+    "2024-09-26",
+    "2024-11-05",
+    "2024-12",
+    "2025-01-25",
+    "2025-01-27",
+    "2025-04-04",
+    "2025-04-17",
+    "2025-04-21",
+    "2025-04-26",
+    "2025-05-02",
+    "2025-05-04",
+    "2025-05-10",
+    "2025-05-24",
+    "2025-05-31",
+    "2025-06-03",
+    "2025-06-05",
+    "2025-06-07",
+    "2025-06-14",
+    "2025-06-15",
+    "2025-06-16",
+    "2025-06-18",
+    "2025-06-21"
+  ],
+  "wheelchair": [
+    "designated",
+    "limited",
+    "no",
+    "yes"
+  ],
+  "source": [
+    "Bing",
+    "Bing;survey",
+    "Digitalglobe Premium aerial",
+    "Første etage Skattenshus",
+    "GPS",
+    "GPS, local_knowledge",
+    "Idrettsanleggregisteret",
+    "Norge i Bilder",
+    "Norway Orthophoto",
+    "Survey",
+    "Top floor",
+    "Yahoo",
+    "Yahoo, local_knowledge",
+    "field_survey",
+    "gps",
+    "https://indre24.no/2022/05/22/bilder-apning-av-lavvo-og-toalettbygg/;Norway Orthophoto 2022",
+    "knowledge",
+    "local knowledge",
+    "local_knowledge",
+    "local_knowledge;survey",
+    "observation",
+    "observation;extrapolation",
+    "survey",
+    "survey;bing",
+    "survey;estimate"
+  ],
+  "capacity": [
+    "1",
+    "10",
+    "15",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "60",
+    "7",
+    "8"
+  ],
+  "fee": [
+    "0",
+    "10 NOK",
+    "10 nok",
+    "10NOK",
+    "15 NOK",
+    "5 NOK",
+    "5NOK",
+    "NOK 10.00",
+    "NOK20",
+    "no",
+    "unknown",
+    "yes"
+  ],
+  "owner": [
+    "Bømlo tur- og sogelag",
+    "private"
+  ],
+  "building": [
+    "barn",
+    "boathouse",
+    "cabin",
+    "chapel",
+    "civic",
+    "commercial",
+    "farm_auxiliary",
+    "garage",
+    "garages",
+    "hotel",
+    "hut",
+    "kiosk",
+    "office",
+    "outhouse",
+    "religious",
+    "retail",
+    "roof",
+    "school",
+    "service",
+    "shed",
+    "toilets",
+    "transportation",
+    "warehouse",
+    "yes"
+  ],
+  "drinking_water": [
+    "no",
+    "seasonal",
+    "yes"
+  ],
+  "level": [
+    "-1",
+    "-2",
+    "-4",
+    "0",
+    "0.5",
+    "0;1",
+    "1",
+    "1_+_2",
+    "2",
+    "3",
+    "4"
+  ],
+  "changing_table": [
+    "maybe",
+    "no",
+    "room",
+    "yes"
+  ],
+  "unisex": [
+    "no",
+    "yes"
+  ],
+  "toilets:position": [
+    "inside",
+    "outside",
+    "seated",
+    "seated; urinal",
+    "seated;seated;seated",
+    "seated;urinal",
+    "urinal"
+  ],
+  "name": [
+    "* Apalvika Restroom",
+    "Austmannlitunnelen ved kolonne",
+    "Banak Senteret",
+    "Bergbu",
+    "Bergen rådhus",
+    "Bergeshuset",
+    "Bermerud Badeplass",
+    "Bingis Fjellstue",
+    "Birtavarre",
+    "Boarronjárga",
+    "Bojobeaskihytta",
+    "Botanisk Hage",
+    "Breivikeidet fergekai",
+    "Brusedoen",
+    "Bydalshytta",
+    "Bøla",
+    "Bølgeblikksgarasje 2 (Bogstadleiren)",
+    "Børselvfjellet kapell",
+    "C Sundtsgate",
+    "Caravan Toilet",
+    "Circle K Alta",
+    "Circle K Elvebakken",
+    "Circle K Kautokeino",
+    "Circle K Sortland",
+    "DNB Bygget",
+    "Den Sorte Dames brygge",
+    "Eidsfoss",
+    "Fish Market",
+    "Flateby bruk",
+    "Galleriet",
+    "Glenn's",
+    "Grensen Tourist toilet",
+    "Gulldassen",
+    "Haugseter fjellstue",
+    "Havnevakt",
+    "Heia",
+    "Ifjordfjellet kapell",
+    "Jachthafen Sandvik",
+    "Jelsa Harbour Toilet",
+    "Joker",
+    "Kiwi Farriseidet",
+    "Kjærlighetskarusellen",
+    "Klatrehuken",
+    "Kvamsbua",
+    "Liberté",
+    "Loganjárga",
+    "Nevlunghavn Brygge",
+    "Norangsdalen",
+    "Offentlig toalett",
+    "Offentlig toaletter",
+    "Olavsbakken",
+    "Ongajärvihytta",
+    "Ordajohka",
+    "Outhouse",
+    "Parkkaféen",
+    "Pit toilet",
+    "Privet Vest",
+    "Privet Øst",
+    "Public Toilet",
+    "Public Toilets",
+    "Public bathroom",
+    "På taket kafe",
+    "Repparfjord Camping og Misjonssenter",
+    "Rivdnjesvađđa",
+    "Røssdalen",
+    "Samvirkelaget Kviby",
+    "Sanitær 1",
+    "Sanitærannlegget",
+    "Sanitærbygg",
+    "Sennalandet kapell",
+    "Servicebygg",
+    "Servicebygget",
+    "Shell Greaker",
+    "Skaidikroa",
+    "Skrøylå",
+    "Smørfjordskaidi kapell",
+    "Snappen",
+    "Songesand kai",
+    "Soria Moria sauna",
+    "Storfossen",
+    "Støkken",
+    "Støkken restrooms northbound",
+    "Sydvesten Kro",
+    "Sørskogen",
+    "The throne",
+    "Toalett",
+    "Toalett Mix",
+    "Toaletter",
+    "Toilet (only summer)",
+    "Toilette",
+    "Toilettes",
+    "Torvhuset",
+    "Upper level",
+    "Utedo",
+    "Uthus",
+    "Venterom Dragsvik",
+    "Vikstranda",
+    "Vispen",
+    "WC-Shower",
+    "Xhibition",
+    "YX Burfjord",
+    "egalité",
+    "fraternité",
+    "utedo",
+    "Øra bobilcamping"
+  ],
+  "opening_hours": [
+    "06:00-22:00",
+    "07:00-21:00",
+    "10:00-16:00",
+    "24/7",
+    "Jun-Aug",
+    "May 01-Oct 01",
+    "May 10-Oct 10",
+    "May 15-Oct 1",
+    "May-Oct 00:00-24:00",
+    "Mo-Fr 04:45-16:00",
+    "Mo-Fr 06:00-23:00; Sa, Su 09:00-23:00",
+    "Mo-Fr 07:00-22:00; Sa 09:00-22:00; Su 09:00-18:00",
+    "Mo-Fr 07:00-23:00; Sa 08:00-20:00; Su 09:00-20:30",
+    "Mo-Fr 07:00-23:15",
+    "Mo-Fr 07:30-16:00; Sa 09:00-16:00; Su off",
+    "Mo-Fr 08:00-16:00",
+    "Mo-Fr 08:00-18:00",
+    "Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 11:00-21:00",
+    "Mo-Fr 08:00-22:00; Sa 08:00-21:00",
+    "Mo-Fr 08:00-22:00; Sa 09:00-20:00",
+    "Mo-Fr 08:00-22:00; Sa, Su, PH 09:00-22:00",
+    "Mo-Fr 08:15-15:00",
+    "Mo-Fr 09:00-18:00; Sa 09:00-16:00",
+    "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "Mo-Fr 09:00-21:00",
+    "Mo-Fr 09:00-21:00; Sa 09:00-18:00",
+    "Mo-Fr 09:00-21:00; Sa 09:00-20:00",
+    "Mo-Fr 10:00-17:00; Sa 10:00-16:00",
+    "Mo-Fr 10:00-20:00, Sa 10:00-18:00",
+    "Mo-Fr 11:00-16:00; Sa-Su 11:00-18:00",
+    "Mo-Sa 06:00-23:00; Su off",
+    "Mo-Sa 11:00-22:00; Su 12:00-22:00",
+    "Mo-Su 06:00-00:00",
+    "Mo-Su 06:30-23:00",
+    "Mo-Su 07:00-16:00; Apr-Sep Mo-Su 07:00-22:00",
+    "Mo-Su 07:00-23:00",
+    "Mo-Su 08:00-20:00",
+    "Mo-Su 08:00-22:00",
+    "Mo-Su 08:00-24:00",
+    "Mo-Su 09:00-18:00",
+    "Mo-Su 10:00-17:00",
+    "Mo-Su 10:00-20:00",
+    "Mo-Su 11:00-18:00; Mo-Su 18:00-11:00",
+    "Mo-Su 12:00-12:00",
+    "Mo-Su: 06:00-21:50",
+    "Mo-Th 06:50-23:00; Fr 06:50-21:00; Sa 09:00-21:00; Su 10:00-23:00",
+    "Mo-Th 07:45-20:00; Fr 07:45-15:00; Jun 26-Aug 19 Mo-Fr 07:45-15:00",
+    "Mo-Th 09:00-19:00; Fr,Su 09:00-20:00; Sa 09:00-18:00",
+    "Mo-Th 09:30-22:00; Fr 09:30-24:00; Sa 00:00-01:00, 09:30-24:00; Su 00:00-01:00, 09:30-22:00",
+    "Mo-Tu 12:00-19:00; We 09:00-16:00; Th 12:00-19:00; Fr 09:00-16:00; Sa 09:00-16:00",
+    "Mon-Sat 10:00-18:00; Sun 12:00-16:00",
+    "Summer",
+    "off; SH 24/7",
+    "unknown",
+    "week 20-37: 00:00-24:00"
+  ],
+  "operator": [
+    "Alta Folkehøgskole",
+    "Askvoll Campsite",
+    "Bakkaåno Camping",
+    "Banak Senteret",
+    "Bane NOR",
+    "Bane NOR Eiendom",
+    "Bane NOR SF",
+    "Bergen Offentlige Bibliotek",
+    "Bergen og Omland Friluftsråd",
+    "Bleik Camping",
+    "Circle K",
+    "Coop Extra Karasjok",
+    "Coop extra",
+    "DNT Oslo og Omegn",
+    "Dalsøren Camping",
+    "Drammen kommune",
+    "Egon",
+    "Enebakk Kommune",
+    "Enebakk kommune",
+    "Esso Vossestrand",
+    "Farsund kommune",
+    "Flora Grill og Pizza",
+    "Fløibanen AS",
+    "Forsvarsbygg",
+    "Free",
+    "GoMarina",
+    "Hammerfest Kommune",
+    "Iford Camping",
+    "Joatkajávri fjellstue",
+    "Jæren Friluftsråd",
+    "Jæren friluftsråd",
+    "Kautokeino kommune Miljøvernkontoret",
+    "Kjærra Fossepark",
+    "Kongssenteret",
+    "Kongsvinger bibliotek",
+    "Kvernsteinsparken",
+    "Kåfjord jeger og fiskerforening",
+    "Laksestudio",
+    "Larvik kommune",
+    "Lindøya velforening",
+    "Lofoten Beach Camp",
+    "Lomen Stavkirke",
+    "Lørenskog kommune",
+    "Mattarello",
+    "Melkevll Bretun Camping",
+    "Moskenes Kommune",
+    "Mosvangen Camping",
+    "Nasjonalparksentret Møysalen",
+    "Nesvik kai",
+    "Norges Samemisjon",
+    "Oslo Kommune Friluftetaten",
+    "Oslo kommune",
+    "Preikestolen Camping",
+    "RP Eiendom/Kjells Kafe",
+    "Ryfylke Friluftsråd",
+    "Ryfylke friluftsråd",
+    "Rystad Lofoten Camping",
+    "STF",
+    "Sandnes Camping Mandal",
+    "Sarons Dal Camping",
+    "Shell",
+    "Statens Vegvesen",
+    "Statskog",
+    "Stavanger Turistforening",
+    "Strusshamn Gjestehavn",
+    "Talvik snøscooterforening",
+    "Vesterålen Turlag",
+    "Vikhammer Camping",
+    "Vollan Gjestestue",
+    "Åros camping",
+    "Øysand Camping"
+  ],
+  "panoramax": [
+    "04a5cb4c-d13c-47fe-bbf5-ee803e245ebe",
+    "0b4c6c5e-677f-46f6-90fb-2b3f459e3e07",
+    "0fef834d-9ff3-440c-bebf-e7e6551b7529",
+    "17fa6b32-d731-4fac-87e8-627f878faf28",
+    "1ab33d1d-b794-4895-85be-65138df11583",
+    "4d207c9b-b323-4f13-ad18-8ab32d59bb56",
+    "51ce89f9-c7e6-4086-a575-0df91b8f96b6",
+    "5ab4a00f-38ee-4724-b760-e6c93145993a",
+    "5e485e23-2ff2-4b84-b6d1-713f73f1e105",
+    "613afaec-81d6-48fa-ac2e-a1cd771a656d",
+    "7dc2e2af-2b58-49c6-817c-337598736b15",
+    "86b45fc8-6607-41f3-be1a-3e09332286c0",
+    "8d5ba65f-6daa-4592-b927-5e33c002d869",
+    "a8c39362-9a5b-4cba-9ce0-0e237f680460",
+    "bb3cd416-78eb-4fd4-b02e-73c1f869cf40",
+    "c9ba1513-0f8b-4e4c-8e25-82edf9822252",
+    "d6711d8d-7a88-42e4-9d96-db3b9cac1f43",
+    "dd376328-04c8-4eb9-8247-1a5af026b633",
+    "de8587bf-d372-4dcd-8dba-79c23d1815ec",
+    "e96c2447-4f0f-49c3-a525-d13b141b0cd0",
+    "ea23fc95-590a-4f32-8233-6ae0a552b55b",
+    "f2c3bb5c-7b3c-4fb4-9223-00a5eea5a7ee"
+  ],
+  "female": [
+    "no",
+    "yes"
+  ],
+  "male": [
+    "no",
+    "yes"
+  ],
+  "toilets:handwashing": [
+    "no",
+    "yes"
+  ],
+  "description": [
+    "10 NOK for each entrance to toilets",
+    "A rather nice new toilet",
+    "Access from both inside McDonalds and from the outside",
+    "Ask at the shop for the key",
+    "Cafe og toalett",
+    "Entrance: Jenny Hemstads gate",
+    "Entry through Frich's Kafe & Spiseri",
+    "Floating, moveable",
+    "Free for guests, fee for guests.",
+    "Heisbu og toalett",
+    "In corner of waiting hall (for ferry)",
+    "Offentlig toalett. Nøkkel hentes i restaurant",
+    "Open summer season only",
+    "Outhouse",
+    "Public Toilet, Free of charge",
+    "Public toilets",
+    "Public toilets with code access, the code can be obtained at the office tourism of Bodoe",
+    "Service house for the camp ground",
+    "The three toilets together form an interactive sculpture «Liberté» made by the Norwegian artist Lars Ø Ramberg.\n\nSee https://www.nrk.no/kultur/liberte---in-english-1.5044195",
+    "Toalett og dusj for gjestehavn",
+    "Toilet at the waiting room for Hurtigruten. Free, 24/7",
+    "Toilet in summer from April to November.",
+    "Toilets in a scouts cabin but available to the public",
+    "Toilette et douche",
+    "Tredje etg.",
+    "Urinal is free, but dirty.",
+    "Utedo",
+    "Very basic. Smelly.",
+    "Vestre gravlund - Nye Kapell",
+    "costs 10 NOK",
+    "enkel utedo",
+    "free customer toilet",
+    "handicap og vanlig WC. Handicapp and normal WC",
+    "heated",
+    "no water",
+    "open usually just for summer",
+    "public toilet, summer season only"
+  ],
+  "wheelchair:description": [
+    "im Oktober sehr sauber mit Rosenduft"
+  ],
+  "image": [
+    "https://d1cuyjsrcm0gby.cloudfront.net/6DB1Lyw9-RBQBEhlxUu8ZA/thumb-2048.jpg",
+    "https://d1cuyjsrcm0gby.cloudfront.net/PNJe-fDx8NrCwpVi0u-o5g/thumb-2048.jpg",
+    "https://d1cuyjsrcm0gby.cloudfront.net/f4mBJr4SRtx94OEMqdYpUw/thumb-2048.jpg",
+    "https://d1cuyjsrcm0gby.cloudfront.net/zsPAHapq_u5PmegVPg7v5w/thumb-2048.jpg",
+    "https://images.mapillary.com/EnjT72K8SN-JMHPp8Tf0qA/thumb-2048.jpg",
+    "https://images.mapillary.com/EqH5hYRjso0ALkhPfavyfD/thumb-2048.jpg",
+    "https://images.mapillary.com/KA38aqAGxgVyz1wajtstPA/thumb-2048.jpg",
+    "https://images.mapillary.com/RGBVIuPjEqe8pHJ9Uklx6A/thumb-2048.jpg",
+    "https://images.mapillary.com/RRDhGhW4blhUvs60KinDuw/thumb-2048.jpg",
+    "https://images.mapillary.com/UjWHqnydZNTMgSa8Vtgibb/thumb-2048.jpg",
+    "https://images.mapillary.com/dtgcGVc3HOFhbgWQtWkMbA/thumb-2048.jpg",
+    "https://images.mapillary.com/kKwK6t3OOnlu8POTA2tUiQ/thumb-2048.jpg",
+    "https://images.mapillary.com/kmj2OVxMzxmotL7vSu2RT7/thumb-2048.jpg",
+    "https://images.mapillary.com/loPh891gybXvRcxKcqNheg/thumb-2048.jpg",
+    "https://images.mapillary.com/s4db3O7VTVJnsDEDgTMsjw/thumb-2048.jpg",
+    "https://images.mapillary.com/smQyWHOEj41077zu8LITMQ/thumb-2048.jpg",
+    "https://images.mapillary.com/uPCMDVKrfbF2hHmWfCecYQ/thumb-2048.jpg",
+    "https://photos.app.goo.gl/1N4biw2jFz3Axcc4A",
+    "https://photos.app.goo.gl/1YfgzgynhGYvxKYH8",
+    "https://photos.app.goo.gl/1mLz9qW4SYYhZke8A",
+    "https://photos.app.goo.gl/2p28rx812CwVAJfX9",
+    "https://photos.app.goo.gl/3hV25tTBF4Q1AyDG9",
+    "https://photos.app.goo.gl/3tmQRVm9dTrtT15q8",
+    "https://photos.app.goo.gl/4DMyvY6fnPb64orG9",
+    "https://photos.app.goo.gl/4b8nzKuvbmW88yCF6",
+    "https://photos.app.goo.gl/4zVxkqgrVimuG47t9",
+    "https://photos.app.goo.gl/5a1cZrBLKaDwCKLP6",
+    "https://photos.app.goo.gl/5epNVq7MLESpzEMv5",
+    "https://photos.app.goo.gl/7GMhpcSdP6pP19wp9",
+    "https://photos.app.goo.gl/7sWp16ESe2BMoQ646",
+    "https://photos.app.goo.gl/8KE7zizqmCiioehu8",
+    "https://photos.app.goo.gl/99inAMc9MY49gLey6",
+    "https://photos.app.goo.gl/9pgbZ8SDsYuxFPw48",
+    "https://photos.app.goo.gl/AwBCuPkAzjVAByKD9",
+    "https://photos.app.goo.gl/B8wsaurL9hFR7G9P9",
+    "https://photos.app.goo.gl/CPkfeokE5jchCiQz5",
+    "https://photos.app.goo.gl/KKowBDSXTDiqqJgZ8",
+    "https://photos.app.goo.gl/LWwNNxVacEqUcHiJ9",
+    "https://photos.app.goo.gl/MRcY6DmGeKYjfoTn6",
+    "https://photos.app.goo.gl/NPgWxxzAwh1AUwQ76",
+    "https://photos.app.goo.gl/NaxjKX2re5FSGBSf7",
+    "https://photos.app.goo.gl/PJjGw9QKs3T1x3u98",
+    "https://photos.app.goo.gl/Pzrvcy5ewTLUeN3i9",
+    "https://photos.app.goo.gl/Q9mVprPmWRqB3RTDA",
+    "https://photos.app.goo.gl/R7TNmwXwcraTGzoS9",
+    "https://photos.app.goo.gl/RKYNAyfNxaZPjSMA8",
+    "https://photos.app.goo.gl/RioQi1ercfZwW7iK7",
+    "https://photos.app.goo.gl/TBCBnpZa3cSQ9W177",
+    "https://photos.app.goo.gl/ThpXVw9VfeDfdJE76",
+    "https://photos.app.goo.gl/TqnkhsaddWNfv6sDA",
+    "https://photos.app.goo.gl/U7JHwLyfncR59dxZA",
+    "https://photos.app.goo.gl/UZJ5oiemzmoEoYQJ8",
+    "https://photos.app.goo.gl/UyTFJ4cVgLNwcfBFA",
+    "https://photos.app.goo.gl/XMFadtAg2HDdC6Nb9",
+    "https://photos.app.goo.gl/XoEhrG5xb5RN4Eb2A",
+    "https://photos.app.goo.gl/YMFxrQhBUiXGBb1i9",
+    "https://photos.app.goo.gl/Yk7rrchuzQv7CHTq7",
+    "https://photos.app.goo.gl/ZdeorXVsBUp5eZJZA",
+    "https://photos.app.goo.gl/ZoLgVczVBCJq45VN6",
+    "https://photos.app.goo.gl/ZtTxENHZ1C2eEWcy6",
+    "https://photos.app.goo.gl/ag39mioiLJJPEYMr9",
+    "https://photos.app.goo.gl/byG5SPMuYmD1guFeA",
+    "https://photos.app.goo.gl/caZ9mAeP6KPLwo3KA",
+    "https://photos.app.goo.gl/dUkprudeFmcgtsR68",
+    "https://photos.app.goo.gl/dgX4PTD6KLwNMqXG7",
+    "https://photos.app.goo.gl/hBm2bStCMAHqbxpU8",
+    "https://photos.app.goo.gl/hTZ7bXBbaJerEVMQ6",
+    "https://photos.app.goo.gl/hvnY9153gobR9QpF7",
+    "https://photos.app.goo.gl/iSeTsWPbRJcZBeaG6",
+    "https://photos.app.goo.gl/jVB43afpNDTTzpgd6",
+    "https://photos.app.goo.gl/jVYjQzdHTykMacQ69",
+    "https://photos.app.goo.gl/k26xtpqhGoXB6DCB8",
+    "https://photos.app.goo.gl/miCuCoU4kzfyiYa66",
+    "https://photos.app.goo.gl/nKG4KJC1o75YxwSYA",
+    "https://photos.app.goo.gl/nLVsDwtB68kLrUzy5",
+    "https://photos.app.goo.gl/oPJaTpe75xZdxAzP7",
+    "https://photos.app.goo.gl/ohX6dFkm1hkZhUf29",
+    "https://photos.app.goo.gl/p7mvbv7pWA817EYn7",
+    "https://photos.app.goo.gl/piemz1qR43seVmKN9",
+    "https://photos.app.goo.gl/reehsvsTmxFNsxYX9",
+    "https://photos.app.goo.gl/rqQdaGBP8Qd92V6Q7",
+    "https://photos.app.goo.gl/uCWPQbs1dDotLzpP7",
+    "https://photos.app.goo.gl/vAbY727dsZ1RZAin6",
+    "https://photos.app.goo.gl/wRoWSXcTawHbdS569",
+    "https://photos.app.goo.gl/xaN9ofiryyB8m7ZT7",
+    "https://photos.app.goo.gl/xkvP1UYGUehx4Qmt6",
+    "https://photos.app.goo.gl/xpJzxS3KkSL821oW7",
+    "https://photos.app.goo.gl/xwWbMnG7QgwLSRuG8",
+    "https://photos.app.goo.gl/zgmNFpeGHnSnDVs26"
+  ],
+  "capacity:disabled": [
+    "1"
+  ],
+  "survey:date": [
+    "2021-01-03",
+    "2021-03-02",
+    "2021-07-28",
+    "2022-07-27",
+    "2022-07-29",
+    "2023-10-14",
+    "2023-10-23",
+    "2024-06-20",
+    "2024-06-23",
+    "2024-08-25",
+    "2024-10-07",
+    "2025-06-14"
+  ],
+  "charge": [
+    "10 NOK",
+    "12 NOK",
+    "15nok",
+    "20 kr",
+    "25 NOK",
+    "5 NOK",
+    "50 NOK / person",
+    "no"
+  ],
+  "payment:credit_cards": [
+    "yes"
+  ],
+  "portable": [
+    "no",
+    "yes"
+  ],
+  "seasonal": [
+    "summer",
+    "yes"
+  ],
+  "cold_water": [
+    "yes"
+  ],
+  "warm_water": [
+    "yes"
+  ],
+  "fixme": [
+    "Check if still in operation. It was claimed that this facility was closed, at least by september 1st, 2024. See: https://www.openstreetmap.org/note/4414435",
+    "Check location. under construction april 2022",
+    "Exact position",
+    "Is this the correct position?",
+    "Locked on 2025-03-30. Resurvey.",
+    "Not 100% sure if toilets in this building or one next to it (not yet in aerial imagery)",
+    "Position",
+    "eller ligger det i samfunnshuset?",
+    "exact position?",
+    "include washing machine, showers - upon pay of \"camping fee\"",
+    "position"
+  ],
+  "gender_segregated": [
+    "no",
+    "yes"
+  ],
+  "layer": [
+    "-1",
+    "1"
+  ],
+  "description:no": [
+    "Liten/mellomstor rasteplass",
+    "Utedo"
+  ],
+  "note": [
+    "10kr for non-customers",
+    "Appears to be unmaintained",
+    "Bare sommersesong",
+    "Closed for the general public mid-august 2023",
+    "Departures",
+    "Domestic arrivals",
+    "Frequently not working.",
+    "International arrivals",
+    "International departures",
+    "Off. toalett",
+    "Only for guests of the camp site",
+    "Only for guests of the campsite",
+    "Only open during summer season",
+    "Please check precise location",
+    "Possibly restricted to the visiting ships in the marina",
+    "Toilets inside Bergen rådhus",
+    "Urinal",
+    "only open during high season",
+    "position approximate"
+  ],
+  "note:no": [
+    "Alternative navn: «Kjærlighetskarusellen», «Lykkehjulet», «Parasollen» og «Den runde tønne».",
+    "Gjenværende andre verdenskrig bølgeblikksgarasje som var del av Bogstadleiren",
+    "Ruiner av et gammelt toalettbygg"
+  ],
+  "website": [
+    "http://no.wikipedia.org/wiki/Stensparken#Urinalet_.C2.ABKj.C3.A6rlighetskarusellen.C2.BB",
+    "https://ut.no/hytte/haugseter-fjellstue-a-s",
+    "https://www.facebook.com/pages/Sydvesten-Kro/218756511471296",
+    "https://www.facebook.com/pages/category/Local-Business/%C3%98ra-Bobilcamping-933756940031825/",
+    "https://www.hibas.no/",
+    "https://www.nasjonaleturistveger.no/en/routes/senja?attraction=Ersfjordstranda",
+    "https://www.romsdalsmuseet.no/avdelinger/ergan-kystfort"
+  ],
+  "website_1": [
+    "http://www.wetterpilze.de/Kjarlighetskarusellen.shtml"
+  ],
+  "supervised": [
+    "no",
+    "yes"
+  ],
+  "idrettsanleggregisteret:iid": [
+    "1219008201"
+  ],
+  "information": [
+    "board",
+    "map"
+  ],
+  "tourism": [
+    "alpine_hut",
+    "attraction",
+    "caravan_site",
+    "information",
+    "picnic_site"
+  ],
+  "name:en": [
+    "City hall",
+    "Golden Toilet",
+    "Toilet room"
+  ],
+  "toilets:paper_supplied": [
+    "no",
+    "yes"
+  ],
+  "door:width": [
+    "1m"
+  ],
+  "changing_table:location": [
+    "dedicated_room",
+    "room",
+    "wheelchair_toilet"
+  ],
+  "indoor": [
+    "no",
+    "room",
+    "yes"
+  ],
+  "operator:wikidata": [
+    "Q3268010"
+  ],
+  "mapillary": [
+    "1021736898647606",
+    "1156119311520321",
+    "1166136390493621",
+    "135020201998822",
+    "1441331712869280",
+    "1580174478848686",
+    "170323804906760",
+    "194988542459618",
+    "214076583623009",
+    "220504302739855",
+    "295264975481433",
+    "384966499406093",
+    "3916934188372057",
+    "3999411946819929",
+    "4005709182855187",
+    "470304050912409",
+    "572897333685951",
+    "573885476918091",
+    "763153664244358",
+    "764221227593250",
+    "785801792330298",
+    "816545029279533",
+    "880417025870752",
+    "882486755663614",
+    "936201380524047",
+    "993586258047011"
+  ],
+  "toilets": [
+    "5",
+    "outhouse",
+    "pitlatrin",
+    "yes"
+  ],
+  "shelter": [
+    "yes"
+  ],
+  "barrier": [
+    "entrance"
+  ],
+  "designation": [
+    "På legesenteret i annen etage",
+    "Toalett",
+    "Waitingroom"
+  ],
+  "toilets:wheelchair": [
+    "1",
+    "designated",
+    "no",
+    "yes"
+  ],
+  "composting": [
+    "yes"
+  ],
+  "internet_access": [
+    "no",
+    "wlan",
+    "yes"
+  ],
+  "internet_access:fee": [
+    "no"
+  ],
+  "payment:bankaxess": [
+    "yes"
+  ],
+  "payment:coins": [
+    "no",
+    "yes"
+  ],
+  "payment:contactless": [
+    "only",
+    "yes"
+  ],
+  "payment:mastercard": [
+    "yes"
+  ],
+  "payment:notes": [
+    "no"
+  ],
+  "payment:visa": [
+    "yes"
+  ],
+  "payment:visa_debit": [
+    "no",
+    "yes"
+  ],
+  "payment:visa_electron": [
+    "yes"
+  ],
+  "toilets:menstrual_products": [
+    "no"
+  ],
+  "entrance": [
+    "yes"
+  ],
+  "check_date:opening_hours": [
+    "2023-03-05",
+    "2023-07-19",
+    "2023-11-15",
+    "2024-06-03",
+    "2024-08-07"
+  ],
+  "board_type": [
+    "history"
+  ],
+  "colour": [
+    "blue",
+    "red",
+    "white"
+  ],
+  "disposal": [
+    "pitlatrine"
+  ],
+  "snowmobile": [
+    "yes"
+  ],
+  "covered": [
+    "yes"
+  ],
+  "changing_table:count": [
+    "1",
+    "2"
+  ],
+  "payment:debit_cards": [
+    "no",
+    "yes"
+  ],
+  "payment:qr_code": [
+    "no"
+  ],
+  "power_supply": [
+    "no"
+  ],
+  "sanitary_dump_station": [
+    "no",
+    "public",
+    "yes"
+  ],
+  "shower": [
+    "fee",
+    "hot",
+    "no",
+    "yes"
+  ],
+  "check_date:wheelchair": [
+    "2025-04-04",
+    "2025-04-26",
+    "2025-05-10"
+  ],
+  "name:se": [
+    "Circle K Guovdageaidnu"
+  ],
+  "payment:apple_pay": [
+    "yes"
+  ],
+  "payment:cash": [
+    "no",
+    "only"
+  ],
+  "payment:google_pay": [
+    "yes"
+  ],
+  "toilets:num_chambers": [
+    "1",
+    "2"
+  ],
+  "noname": [
+    "yes"
+  ],
+  "access:conditional": [
+    "no@snow",
+    "yes @ event"
+  ],
+  "hgv": [
+    "yes"
+  ],
+  "highway": [
+    "elevator",
+    "rest_area"
+  ],
+  "opening_hours:covid19": [
+    "closed"
+  ],
+  "phone": [
+    "+47 78 40 74 02;+47 91 37 03 11"
+  ],
+  "operator:type": [
+    "public"
+  ],
+  "toilets:hands_drying": [
+    "electric_hand_dryer",
+    "no",
+    "paper_towel",
+    "paper_towels"
+  ],
+  "panoramax:0": [
+    "061f97a3-5f32-4315-a67b-d6e92f457fba"
+  ],
+  "description:de": [
+    "Zutritt nur mit Code vom Ticket für Wohnmobilstellplatz"
+  ],
+  "description:en": [
+    "access only with code from caravan parking ticket"
+  ],
+  "wheelchair:description:en": [
+    "stairs"
+  ],
+  "toilets:access": [
+    "all",
+    "customers",
+    "public",
+    "yes"
+  ],
+  "changing_table:fee": [
+    "no"
+  ],
+  "repeat_on": [
+    "1;2;3;4",
+    "1;2;4",
+    "1;3",
+    "1;4"
+  ],
+  "disabled": [
+    "yes"
+  ],
+  "flickr": [
+    "https://www.flickr.com/photos/mtbboy1993/32676529065"
+  ],
+  "building:levels": [
+    "1",
+    "2"
+  ],
+  "amount": [
+    "2"
+  ],
+  "undefined": [
+    "unisex"
+  ],
+  "type": [
+    "no flush drop"
+  ],
+  "seats": [
+    "4"
+  ],
+  "payment:others": [
+    "no"
+  ],
+  "ele": [
+    "1",
+    "1044"
+  ],
+  "location": [
+    "indoor",
+    "inside museum"
+  ],
+  "seamark:small_craft_facility:category": [
+    "toilets",
+    "toilets, shower",
+    "toilets;shower;launderette",
+    "toilets;showers",
+    "toilets;showers;laundrette"
+  ],
+  "seamark:type": [
+    "small_craft_facility"
+  ],
+  "water_supply": [
+    "no"
+  ],
+  "source:addr": [
+    "https://www.facebook.com/bymiljoetaten/posts/pfbid02EubjwrRbWDe7q5jTL8SgMa9tEebiBGwvEoARzsDRDex4yC6PgDDs7y37UxwdrPWFl"
+  ],
+  "door": [
+    "no"
+  ],
+  "handwashing:soap": [
+    "yes"
+  ],
+  "hot_water": [
+    "fee",
+    "yes"
+  ],
+  "toilets:number": [
+    "1",
+    "2"
+  ],
+  "toilets:male": [
+    "yes"
+  ],
+  "toilets:num_chambers:male:seated": [
+    "4"
+  ],
+  "toilets:num_chambers:urinal": [
+    "4"
+  ],
+  "toilets:position:male": [
+    "seated;urinal"
+  ],
+  "toilets:wheelchair:num_chambers": [
+    "1"
+  ],
+  "toilets:male:handwashing": [
+    "3"
+  ],
+  "level:ref": [
+    "1",
+    "3"
+  ],
+  "addr:housenumber": [
+    "9"
+  ],
+  "addr:street": [
+    "Gardsvegen"
+  ],
+  "ref:bygningsnr": [
+    "10042550",
+    "10188911",
+    "10321131",
+    "10411408",
+    "12558740",
+    "12626738",
+    "12965818",
+    "12965877",
+    "12965885",
+    "13269637",
+    "13400970",
+    "13736642",
+    "13995990",
+    "147547099",
+    "147913257",
+    "148352119",
+    "148353646",
+    "148814759",
+    "149300333",
+    "14965769",
+    "150294681",
+    "151274838",
+    "152182066",
+    "15256540",
+    "153191824",
+    "153257450",
+    "153588260",
+    "154181261",
+    "154551581",
+    "155994339",
+    "157245317",
+    "157287966",
+    "157396838",
+    "158271532",
+    "158271575",
+    "158540495",
+    "160245239",
+    "161052396",
+    "161706035",
+    "162399578",
+    "16277509",
+    "162910604",
+    "163326140",
+    "163474433",
+    "164603547",
+    "16511714",
+    "16514942",
+    "16609986",
+    "166150612",
+    "166164443",
+    "166224594",
+    "16703559",
+    "168032331",
+    "168577583",
+    "168597703",
+    "169402159",
+    "170059840",
+    "171659981",
+    "171910773",
+    "172209335",
+    "172553451",
+    "172704344",
+    "172704689",
+    "174039062",
+    "174431396",
+    "174694990",
+    "176149876",
+    "177235350",
+    "177235547",
+    "177306614",
+    "177790249",
+    "17799630",
+    "178059424",
+    "178579614",
+    "179394219",
+    "18071061",
+    "18219778",
+    "183753541",
+    "187042933",
+    "18710455",
+    "189598149",
+    "189598157",
+    "190856488",
+    "191040333",
+    "191052242",
+    "19220559",
+    "193944280",
+    "194003838",
+    "19568296",
+    "19995003",
+    "20213183",
+    "20267518",
+    "20441747",
+    "20549106",
+    "20606363",
+    "21168653",
+    "21282804",
+    "21503061",
+    "22809822",
+    "23015226",
+    "23085461",
+    "23092999",
+    "23419815",
+    "238708",
+    "24022226",
+    "24138380",
+    "24182738",
+    "25413660",
+    "258873",
+    "300008344",
+    "300010904",
+    "300014453",
+    "300025454",
+    "300028497",
+    "300040237",
+    "300059223",
+    "300063404",
+    "300070126",
+    "300078186",
+    "300080520",
+    "300082856",
+    "300085309",
+    "300119443",
+    "300120078",
+    "300123318",
+    "300125454",
+    "300129333",
+    "300134722",
+    "300136972",
+    "300162774",
+    "300188766",
+    "300194177",
+    "300195837",
+    "300216421",
+    "300217693",
+    "300221730",
+    "300225485",
+    "300246315",
+    "300249097",
+    "300249689",
+    "300296440",
+    "300298585",
+    "300302055",
+    "300329564",
+    "300330985",
+    "300344559",
+    "300354786",
+    "300357067",
+    "300359577",
+    "300361149",
+    "300377573",
+    "300389095",
+    "300392422",
+    "300445470",
+    "300453335",
+    "300455259",
+    "300456466",
+    "300490621",
+    "300496338",
+    "300532627",
+    "300536981",
+    "300577848",
+    "300580079",
+    "300598520",
+    "300615663",
+    "300615837",
+    "300634330",
+    "300650543",
+    "300655821",
+    "300690409",
+    "300704634",
+    "300726378",
+    "300726803",
+    "300747521",
+    "300750895",
+    "300771963",
+    "300773819",
+    "300774527",
+    "300789801",
+    "300811695",
+    "300957191",
+    "4713168",
+    "4755626",
+    "4813065",
+    "6532594",
+    "6588476",
+    "6589251",
+    "6784100",
+    "7046693",
+    "7073836",
+    "7272472",
+    "7315929",
+    "80961510",
+    "81111669",
+    "81194203",
+    "81430276",
+    "81435340",
+    "81455694",
+    "81457840",
+    "81510520",
+    "81511381",
+    "81512094",
+    "81513295",
+    "81556342",
+    "81576270",
+    "81788626",
+    "81818754",
+    "81849811",
+    "81849994",
+    "81858098",
+    "81873720",
+    "81876436",
+    "8660689",
+    "8663491",
+    "8848343",
+    "9027459",
+    "9201718",
+    "9317589",
+    "9342036",
+    "9344640",
+    "9527648",
+    "9592113",
+    "9600043",
+    "9612564",
+    "9793607",
+    "9936343",
+    "9958622"
+  ],
+  "building:material": [
+    "steel",
+    "stone",
+    "wood"
+  ],
+  "roof:material": [
+    "metal",
+    "thatch"
+  ],
+  "roof:shape": [
+    "gable",
+    "gabled"
+  ],
+  "roof:levels": [
+    "0",
+    "1"
+  ],
+  "cladding:material": [
+    "steel"
+  ],
+  "cladding:profile": [
+    "corrugated"
+  ],
+  "note:en": [
+    "Remaining WWII corrugated-metal garage that was part of Bogstadleiren"
+  ],
+  "source_ref": [
+    "https://oslobyleksikon.no/side/Bogstadleiren"
+  ],
+  "source_ref:2": [
+    "https://lokalhistoriewiki.no/wiki/Bogstadleiren"
+  ],
+  "start_date": [
+    "1942",
+    "before 1965-05-24"
+  ],
+  "building:part": [
+    "yes"
+  ],
+  "building:colour": [
+    "#FF0000",
+    "brown",
+    "grey"
+  ],
+  "building:use": [
+    "service"
+  ],
+  "height": [
+    "3",
+    "6",
+    "7"
+  ],
+  "dnt:classification": [
+    "betjent"
+  ],
+  "dnt:iid": [
+    "1182"
+  ],
+  "network": [
+    "Den Norske Turistforening"
+  ],
+  "service": [
+    "full"
+  ],
+  "was:operator": [
+    "Øytun Folkehøgskole"
+  ],
+  "roof:colour": [
+    "#000000"
+  ],
+  "roof:height": [
+    "3"
+  ],
+  "roof:orientation": [
+    "across"
+  ],
+  "alt_name": [
+    "Golden toilet"
+  ],
+  "name:no": [
+    "Gulldassen",
+    "Toalettrom"
+  ],
+  "leisure": [
+    "sauna"
+  ],
+  "locked": [
+    "no"
+  ],
+  "sauna": [
+    "hot"
+  ],
+  "toilet": [
+    "pit"
+  ],
+  "disused": [
+    "yes"
+  ],
+  "historic": [
+    "ruins"
+  ],
+  "ruins": [
+    "yes"
+  ],
+  "architect": [
+    "Peter Zumthor"
+  ],
+  "url": [
+    "https://youtu.be/qRXfCc4moQQ"
+  ],
+  "heritage": [
+    "yes"
+  ],
+  "year_of_construction": [
+    "2019"
+  ],
+  "room": [
+    "toilet"
+  ],
+  "toilets:female": [
+    "yes"
+  ]
+}
