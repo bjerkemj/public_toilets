@@ -37,10 +37,12 @@
   font-size: 0.9rem;
   transition: all 0.2s ease;
   border-bottom: 3px solid transparent;
+  color: #666; /* Add color for non-active nav items */
 }
 
 .nav-item:hover {
   background: #e9ecef;
+  color: #333; /* Darker color on hover */
 }
 
 .nav-item.active {
@@ -70,6 +72,13 @@
   margin: 15px 0 8px 0;
   color: #555;
   font-size: 0.95rem;
+}
+
+.section-content p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
 }
 
 .filter-group {
@@ -228,14 +237,30 @@
   display: none;
 }
 
-/* Mobile styles */
+/* Mobile styles - Full screen sidebar */
 @media (max-width: 768px) {
   .sidebar {
     left: -100vw;
-    width: 280px;
+    width: 100vw; /* Full screen width */
+    top: 60px; /* Keep below header */
+    height: calc(100vh - 60px); /* Full height minus header */
+  }
+  
+  .sidebar-open {
+    left: 0;
   }
   
   .sidebar-overlay {
-    display: block;
+    display: none; /* Remove overlay since sidebar is full screen */
+  }
+  
+  .section-content {
+    padding: 20px 16px; /* Slightly less horizontal padding on mobile */
+  }
+  
+  /* Make navigation touch-friendly */
+  .nav-item {
+    padding: 18px 15px;
+    font-size: 1rem;
   }
 }

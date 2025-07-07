@@ -11,7 +11,7 @@ function Header({ onMenuToggle, isMenuOpen }) {
         </button>
         
         <h1 className="header-title">
-          🚽 Norway Toilet Map
+          🚽 WC Finder
         </h1>
       </div>
     </header>

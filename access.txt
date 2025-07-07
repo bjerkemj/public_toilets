@@ -1,0 +1,29 @@
+"access"
+Can you make the value of the "access" written with capitel letter.
+
+"wheelchair"
+Capitel letter as well please. And no colors.
+
+"fee"
+if "NOK" is written i want it in capital., if not nok, first letter capital.
+
+"changing_table"
+I want that written as well.
+
+"unisex"
+with a capital letter
+
+"opening_hours"
+just as it is written already
+
+"operator"
+with capital letters
+
+"description"
+as is
+
+"charge"
+if "NOK" is written i want it in caps. If else capital first letter
+
+"note"
+with capital letters

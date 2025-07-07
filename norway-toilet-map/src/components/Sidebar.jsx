@@ -1,16 +1,27 @@
-// src/components/Sidebar.jsx
 import { useState } from 'react'
 import './Sidebar.css'
 
-function Sidebar({ isOpen, onToggle }) {
+function Sidebar({ isOpen, onToggle, onFilterChange }) {
   const [activeSection, setActiveSection] = useState('filters')
+  const [freeOnly, setFreeOnly] = useState(false)
+  const [wheelchairOnly, setWheelchairOnly] = useState(false)
+
+  const toggleFree = () => {
+    const newFree = !freeOnly
+    setFreeOnly(newFree)
+    onFilterChange({ freeOnly: newFree, wheelchairOnly })
+  }
+
+  const toggleWheelchair = () => {
+    const newWheelchair = !wheelchairOnly
+    setWheelchairOnly(newWheelchair)
+    onFilterChange({ freeOnly, wheelchairOnly: newWheelchair })
+  }
 
   return (
     <>
-      {/* Sidebar */}
       <aside className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
         <div className="sidebar-content">
-          {/* Navigation */}
           <nav className="sidebar-nav">
             <button 
               className={`nav-item ${activeSection === 'filters' ? 'active' : ''}`}
@@ -26,19 +37,18 @@ function Sidebar({ isOpen, onToggle }) {
             </button>
           </nav>
 
-          {/* Content sections */}
           <div className="sidebar-section">
             {activeSection === 'filters' && (
               <div className="section-content">
                 <h3>Filter Toilets</h3>
                 <div className="filter-group">
                   <label className="checkbox-label">
-                    <input type="checkbox" />
-                    <span>Free Access</span>
+                    <input type="checkbox" checked={freeOnly} onChange={toggleFree} />
+                    <span style={{ color: '#333' }}>Free Access</span>
                   </label>
                   <label className="checkbox-label">
-                    <input type="checkbox" />
-                    <span>Wheelchair Accessible</span>
+                    <input type="checkbox" checked={wheelchairOnly} onChange={toggleWheelchair} />
+                    <span style={{ color: '#333' }}>Wheelchair Accessible</span>
                   </label>
                 </div>
               </div>
@@ -47,10 +57,10 @@ function Sidebar({ isOpen, onToggle }) {
             {activeSection === 'about' && (
               <div className="section-content">
                 <h3>About This Map</h3>
-                <p>Norway's most comprehensive toilet finder with over 3,400 locations.</p>
+                <p>Norway's most comprehensive toilet finder with over 3,300 locations.</p>
                 <div className="stats-grid">
                   <div className="stat-card">
-                    <div className="stat-number">3.4K+</div>
+                    <div className="stat-number">3.3K+</div>
                     <div className="stat-label">Locations</div>
                   </div>
                   <div className="stat-card">
@@ -92,7 +102,7 @@ function Sidebar({ isOpen, onToggle }) {
                 </div>
                 
                 <div className="about-links">
-                  <a href="#" className="about-link">Contact</a>
+                  <a href="mailto:bjerkem.j@gmail.com?subject=Norway Toilet Finder - Contact&body=Hello,%0D%0A%0D%0AI'm reaching out regarding the Norway Toilet Finder app.%0D%0A%0D%0A" className="about-link">Contact</a>
                 </div>
               </div>
             )}
@@ -100,7 +110,6 @@ function Sidebar({ isOpen, onToggle }) {
         </div>
       </aside>
 
-      {/* Overlay for mobile */}
       {isOpen && <div className="sidebar-overlay" onClick={onToggle}></div>}
     </>
   )
