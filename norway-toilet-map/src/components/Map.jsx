@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import { MapContainer, TileLayer } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import './map/Map.css'
 import L from 'leaflet'
@@ -17,15 +17,61 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 })
 
+// -----------------------------------------------------------------------------
+// Create a custom user location icon (Google Maps style)
+// -----------------------------------------------------------------------------
+const createUserLocationIcon = () => {
+  return L.divIcon({
+    className: 'user-location-marker',
+    html: `
+      <div style="
+        width: 20px;
+        height: 20px;
+        background-color: #4285f4;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        position: relative;
+        z-index: 1000;
+      "></div>
+    `,
+    iconSize: [20, 20],
+    iconAnchor: [10, 10],
+  })
+}
+
 function Map({ sidebarOpen, filters }) {
   const [toilets, setToilets] = useState([])
   const [loading, setLoading] = useState(true)
   const [visibleCount, setVisibleCount] = useState(0)
-  
+  const [userLocation, setUserLocation] = useState(null)
+  const [locationAccuracy, setLocationAccuracy] = useState(null)
 
-  // Mapbox tiles (token should ideally come from env var)
-  const MAPBOX_TOKEN =
-    'pk.eyJ1IjoiYmplcmtlbWoiLCJhIjoiY21jb3l0dTM2MDBzYTJqczNuaGo4MnZtZiJ9.5oTDUr--6G1X5uaiXyfdSg'
+  const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
+
+  // ---------------------------------------------------------------------------
+  // Get user's current location
+  // ---------------------------------------------------------------------------
+  useEffect(() => {
+    if (!navigator.geolocation) {
+      console.warn('Geolocation not supported')
+      return
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude, accuracy } = position.coords
+        setUserLocation([latitude, longitude])
+        setLocationAccuracy(accuracy)
+      },
+      (error) => {
+        console.warn('Error getting user location:', error)
+        setUserLocation([62.0, 10.0]) // fallback to Norway
+        setLocationAccuracy(null)
+      },
+      { enableHighAccuracy: true }
+    )
+  }, [])
 
   // ---------------------------------------------------------------------------
   // Filter toilets based on current filters
@@ -36,12 +82,10 @@ function Map({ sidebarOpen, filters }) {
     }
 
     return toilets.filter(toilet => {
-      // If wheelchairOnly is enabled, only show wheelchair accessible toilets
       if (filters.wheelchairOnly && toilet.wheelchair !== 'yes') {
         return false
       }
 
-      // If freeOnly is enabled, only show free toilets
       if (filters.freeOnly && toilet.fee === 'yes') {
         return false
       }
@@ -83,7 +127,6 @@ function Map({ sidebarOpen, filters }) {
               return null
             }
 
-            // Final count logic:
             const numberOfToilets =
               toilet.type === 'node' ? 1 :
               (toilet.geometry?.length || 1)
@@ -92,7 +135,7 @@ function Map({ sidebarOpen, filters }) {
               ...toilet,
               lat,
               lon,
-              numberOfToilets, // new field based on geometry count
+              numberOfToilets,
               access,
               fee: toilet.tags?.fee || 'unknown',
               wheelchair: toilet.tags?.wheelchair || 'unknown',
@@ -117,7 +160,7 @@ function Map({ sidebarOpen, filters }) {
   // ---------------------------------------------------------------------------
   // Loading overlay
   // ---------------------------------------------------------------------------
-  if (loading) {
+  if (loading || !userLocation) {
     return (
       <div className={`map-container ${sidebarOpen ? 'map-with-sidebar' : ''}`}>
         <LoadingOverlay />
@@ -131,8 +174,8 @@ function Map({ sidebarOpen, filters }) {
   return (
     <div className={`map-container ${sidebarOpen ? 'map-with-sidebar' : ''}`}>
       <MapContainer
-        center={[62.0, 10.0]} // Centre on Norway
-        zoom={6}
+        center={userLocation}
+        zoom={13}
         style={{ height: '100%', width: '100%' }}
         zoomControl={false}
       >
@@ -143,11 +186,46 @@ function Map({ sidebarOpen, filters }) {
           zoomOffset={-1}
         />
 
-        {/* Toilets & clusters - now using filtered toilets */}
         <MapContent toilets={filteredToilets} onStatsUpdate={setVisibleCount} />
+
+        {userLocation && (
+          <>
+            {/* Accuracy circle (if available) */}
+            {locationAccuracy && locationAccuracy < 1000 && (
+              <Circle
+                center={userLocation}
+                radius={locationAccuracy}
+                pathOptions={{
+                  color: '#4285f4',
+                  fillColor: '#4285f4',
+                  fillOpacity: 0.1,
+                  weight: 1,
+                  opacity: 0.3,
+                }}
+              />
+            )}
+            
+            {/* User location marker */}
+            <Marker 
+              position={userLocation} 
+              icon={createUserLocationIcon()}
+              zIndexOffset={1000}
+            >
+              <Popup>
+                <div>
+                  <strong>Your Location</strong>
+                  {locationAccuracy && (
+                    <div style={{ fontSize: '0.9em', color: '#666', marginTop: '4px' }}>
+                      Accuracy: ±{Math.round(locationAccuracy)}m
+                    </div>
+                  )}
+                </div>
+              </Popup>
+            </Marker>
+          </>
+        )}
       </MapContainer>
 
-      {/* Floating stats bar */}
       <MapStats 
         visibleCount={visibleCount} 
         totalCount={toilets.length} 

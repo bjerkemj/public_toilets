@@ -1,6 +1,6 @@
 // src/App.jsx
 import { useState } from 'react'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics, track } from '@vercel/analytics/react'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Map from './components/Map'
@@ -19,6 +19,12 @@ function App() {
 
   const handleFilterChange = (newFilters) => {
     setFilters(newFilters)
+
+    // Track the filter change event
+    track('filter_applied', {
+      freeOnly: newFilters.freeOnly,
+      wheelchairOnly: newFilters.wheelchairOnly
+    })
   }
 
   return (
